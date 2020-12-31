@@ -75,6 +75,5 @@
                 android:src="@drawable/home_icon_tonggao"
                 />
         </LinearLayout>
-
     </LinearLayout>
 </LinearLayout>
