@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.PopupWindow;
 
 public class IndexActivity extends AppCompatActivity {
     private ImageView iv_message;
@@ -45,7 +46,7 @@ public class IndexActivity extends AppCompatActivity {
         iv_match.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                PopupWindow popupWindow=new PopupWindow();
             }
         });
     }
