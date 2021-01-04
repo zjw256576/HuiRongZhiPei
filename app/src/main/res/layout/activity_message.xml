@@ -12,6 +12,7 @@
         android:background="@drawable/message_bg"
         >
         <ImageView
+            android:id="@+id/iv_back_index"
             android:layout_alignParentLeft="true"
             android:layout_marginTop="13dp"
             android:layout_marginBottom="13dp"
