@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
     android:orientation="vertical" android:layout_width="375dp"
-    android:layout_height="180dp">
+    android:layout_height="180dp"
+    android:background="@drawable/choice_message"
+    >
     <ImageView
         android:layout_marginTop="14dp"
         android:layout_gravity="center_horizontal"
