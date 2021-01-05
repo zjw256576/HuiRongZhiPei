@@ -7,9 +7,9 @@
     android:orientation="vertical"
     tools:context=".IndexActivity">
     <LinearLayout
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="12dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
@@ -20,6 +20,7 @@
             />
         <TextView
             android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="上海"
@@ -27,14 +28,17 @@
             android:textSize="14sp"
             />
         <EditText
-            android:paddingLeft="20dp"
-            android:gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="32dp"
             android:layout_weight="1"
             android:drawableLeft="@drawable/home_icon_soushuo"
             android:background="@drawable/login_bg"
             android:hint="搜索适合您的信贷"
+            android:textSize="11sp"
+            android:textColor="#B5B5B5"
             />
         <ImageView
             android:id="@+id/iv_message"
@@ -44,12 +48,18 @@
             android:src="@drawable/home_icon_xiaoxiyou"
             />
     </LinearLayout>
-    <ImageView
-        android:layout_marginTop="8dp"
+    <LinearLayout
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/banner"
-        />
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banner"
+            />
+    </LinearLayout>
     <LinearLayout
         android:id="@+id/ll_tonggao"
         android:layout_marginLeft="15dp"
@@ -117,7 +127,7 @@
     <LinearLayout
         android:layout_marginLeft="14dp"
         android:layout_marginRight="14dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <LinearLayout
@@ -196,7 +206,7 @@
         android:gravity="center_vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="15dp"
         android:layout_marginLeft="14dp"
         >
         <ImageView
@@ -215,7 +225,5 @@
             android:textColor="#1B1B1B"
             />
     </LinearLayout>
-    <androidx.viewpager.widget.ViewPager
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+
 </LinearLayout>
