@@ -78,7 +78,7 @@
             android:src="@drawable/denglu_phone2"
             />
         <EditText
-
+            android:id="@+id/et_phone"
             android:layout_marginLeft="10dp"
             android:layout_width="0dp"
             android:layout_marginTop="3dp"
@@ -108,6 +108,7 @@
             android:src="@drawable/denglu_password1"
             />
         <EditText
+            android:id="@+id/et_password"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
             android:layout_width="0dp"
