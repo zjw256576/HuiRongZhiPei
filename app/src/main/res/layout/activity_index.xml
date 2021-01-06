@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".IndexActivity">
     <LinearLayout
@@ -65,7 +65,7 @@
             android:src="@drawable/home_icon_xiaoxiyou"
             />
     </LinearLayout>
-    <LinearLayout
+    <!--<LinearLayout
         android:layout_marginLeft="14dp"
         android:layout_marginRight="14dp"
         android:layout_width="match_parent"
@@ -444,8 +444,8 @@
                     />
             </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
+    </LinearLayout>-->
+    <!--<LinearLayout
         android:gravity="center_vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -467,5 +467,42 @@
             android:textSize="18sp"
             android:textColor="#1B1B1B"
             />
-    </LinearLayout>
+    </LinearLayout>-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <RadioGroup
+      android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="首页"
+            android:button="@null"
+            android:drawableTop="@drawable/button_messege_selector"
+            />
+        <RadioButton
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="产品"
+            android:button="@null"
+            android:drawableTop="@drawable/button_product_selector"
+            />
+        <RadioButton
+            android:gravity="center_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="我的"
+            android:button="@null"
+            android:drawableTop="@drawable/button_my_selector"
+            />
+    </RadioGroup>
 </LinearLayout>

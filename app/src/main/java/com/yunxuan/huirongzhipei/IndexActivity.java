@@ -12,7 +12,7 @@ import android.widget.PopupWindow;
 
 public class IndexActivity extends AppCompatActivity {
     private ImageView iv_message;
-    private LinearLayout ll_tonggao;
+   // private LinearLayout ll_tonggao;
     private ImageView iv_match;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +27,8 @@ public class IndexActivity extends AppCompatActivity {
 
     private void initView() {
         iv_message=findViewById(R.id.iv_message);
-        ll_tonggao=findViewById(R.id.ll_tonggao);
-        iv_match=findViewById(R.id.iv_match);
+       // ll_tonggao=findViewById(R.id.ll_tonggao);
+       // iv_match=findViewById(R.id.iv_match);
         iv_message.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,18 +36,18 @@ public class IndexActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        ll_tonggao.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(IndexActivity.this,SystemNoticeActivity.class);
-                startActivity(intent);
-            }
-        });
-        iv_match.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                PopupWindow popupWindow=new PopupWindow();
-            }
-        });
+//        ll_tonggao.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent=new Intent(IndexActivity.this,SystemNoticeActivity.class);
+//                startActivity(intent);
+//            }
+//        });
+//        iv_match.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                PopupWindow popupWindow=new PopupWindow();
+//            }
+//        });
     }
 }
